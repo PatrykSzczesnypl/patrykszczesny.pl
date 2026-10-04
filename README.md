@@ -1,0 +1,1 @@
+# patrykszczesny.pl
