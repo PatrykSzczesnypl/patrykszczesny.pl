@@ -45,7 +45,32 @@ order:2;
 width:100% !important;
 max-width:600px !important;
 }
-}</style>
+}
+ .hero>div{
+display:block;
+max-width:1200px;
+width:100%;
+}
+
+.hero>div>img{
+float:right;
+width:50% !important;
+max-width:650px !important;
+height:auto;
+margin:0 0 25px 50px;
+border-radius:12px;
+object-fit:cover;
+}
+
+@media(max-width:800px){
+.hero>div>img{
+float:none;
+width:100% !important;
+max-width:600px !important;
+margin:0 0 25px 0;
+}
+} 
+</style>
 </head>
 <body>
 <header>
